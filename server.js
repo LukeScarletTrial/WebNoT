@@ -12,7 +12,7 @@ app.use(express.static(__dirname));
 
 const client = new OpenAI({
     baseURL: "https://router.huggingface.co/v1",
-    apiKey: "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",
+    apiKey: "hf_hf_PhCbhzlvynfdNEPMCsVqxGsrDlXAGsjdNv",
 });
 
 app.post('/generate', async (req, res) => {
